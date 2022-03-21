@@ -36,8 +36,6 @@ object OOBasics extends App {
     // overloading: same name but different signatures.
       // different signatures means different types or number of parameters
     def greet(): Unit = println(s"Hi, I am $name")
-
-
   }
 
   /*
