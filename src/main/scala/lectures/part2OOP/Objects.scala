@@ -17,7 +17,7 @@ object Objects {
   class Person(val name: String) {
     // instance-level functionality
   }
-  // COMPANIONS : object Person and class Person
+  // COMPANIONS : object Person and class Person can access each other's private members
 
   def main(args: Array[String]): Unit = {
     println(Person.N_EYES)
